@@ -21,6 +21,27 @@ pre code {
   /* border: 3px solid green; */
 }
 
-.about {
-    
+.home-crop{
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 5px solid black;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center-overlay{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-overlay a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
 }
